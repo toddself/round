@@ -1,0 +1,32 @@
+{
+  "name": "@toddself/round",
+  "version": "1.0.0",
+  "description": "Round numbers",
+  "main": "./dist/round.js",
+  "jsnext:main": "./src/round.js",
+  "scripts": {
+    "test": "npm run build && tap round.spec.js",
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toddself/round.git"
+  },
+  "keywords": [
+    "rounding"
+  ],
+  "author": "Todd Kennedy <todd@selfassembled.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/toddself/round/issues"
+  },
+  "homepage": "https://github.com/toddself/round#readme",
+  "devDependencies": {
+    "babel": "~6.0.15",
+    "babel-cli": "~6.0.15",
+    "babel-plugin-transform-es2015-block-scoping": "~6.0.14",
+    "babel-plugin-transform-es2015-modules-commonjs": "~6.0.15",
+    "tap": "~2.2.0"
+  }
+}
