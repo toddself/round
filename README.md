@@ -22,4 +22,4 @@ console.log(round('robin')) // 0
 ```
 
 ## License
-Copyright 2015 Todd Kennedy, [Apache 2.0](LICENSE)  
+Copyright (c) 2015 Todd Kennedy, [Apache 2.0](LICENSE)  
